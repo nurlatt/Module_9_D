@@ -1,4 +1,5 @@
-﻿public abstract class Beverage
+//1
+public abstract class Beverage
 {
     public abstract double Cost(); // Метод для расчета стоимости напитка
     public abstract string GetDescription(); // Метод для получения описания напитка
@@ -113,7 +114,7 @@ class Program
     }
 }
 
-
+//2
 public interface IPaymentProcessor
 {
     void ProcessPayment(double amount); // Обработка платежа
